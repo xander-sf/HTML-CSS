@@ -1,0 +1,36 @@
+body{
+    background-image: url("https://wyndhamgardenmanama.com/wp-content/uploads/2017/09/Bahrain-International-Circuit-shutterstock_100695571-1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+p{
+    color: blue;
+    /*font-size: 42px;*/
+    width: 50%;
+    height: 50px;
+    background-color: coral;
+}
+h2, h3{
+    color: orange;
+}
+sub, sup{
+    font-size: 24px;
+    color: deeppink;
+}
+span{
+    font-size: 32px;
+    color: darkred;
+    width: 50%;
+    height: 50px;
+    background-color:cyan;
+}
+h6{
+    font-size: 46px;
+    color: red;
+}
+img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
