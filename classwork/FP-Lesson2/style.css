@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Titillium+Web&display=swap');
+.jacquard-12-regular {
+    font-family: "Jacquard 12", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titillium-web-regular {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

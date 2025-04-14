@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    *{
+      margin: 0;
+    }
+    body{
+      height: 100vh;
+    }
+    .box{
+      width: 200px;
+      height: 200px;
+      /*margin: 0 10px;*/
+    }
+    .red{
+      background-color: red;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column-reverse;
+    }
+    .red p{
+      /*text-align: center;*/
+    }
+    .red img{
+      width: 50%;
+    }
+    .yellow{
+      background-color: yellow;
+    }
+    .blue{
+      background-color: blue;
+    }
+    .flex{
+      height: 100%;
+      background-color: burlywood;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      align-items: center;
+      flex-direction: column;
+    }
+  </style>
+</head>
+<body>
+<div class="flex">
+  <div class="box red">
+    <p> Scuderia Ferrari HP</p>
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Scuderia_Ferrari_HP_logo_24.svg/640px-Scuderia_Ferrari_HP_logo_24.svg.png" alt="ferrari">
+  </div>
+  <div class="box yellow"></div>
+  <div class="box blue"></div>
+</div>
+
+</body>
+</html>
